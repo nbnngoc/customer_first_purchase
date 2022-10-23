@@ -2,7 +2,7 @@
 
 Description:
 
-- Self-learning project to practice on data analysis skillset
+- Self-learning project to practice data analysis skillset
 - Research question: What is the average number of days for customers to make their first purchases after signing up on the website?
 
 The repository contains 3 files:
