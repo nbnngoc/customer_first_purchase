@@ -9,7 +9,7 @@ u.gender,
   WHEN u.country = "España" THEN "Spain"
   WHEN u.country = "Deutschland" THEN "Germany" 
   ELSE u.country
-END) AS country, 
+END) AS country,
 EXTRACT(DATE FROM u.created_at) AS sign_up_date,
 EXTRACT(DATE FROM fp.first_purchase) AS first_purchase,
 EXTRACT(HOUR FROM (fp.first_purchase - u.created_at)) AS hours_to_first_purchase
