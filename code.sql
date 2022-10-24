@@ -1,3 +1,8 @@
+--raw data: bigquery-public-data.thelook_ecommerce
+--.users
+--.items_inventory
+--.orders
+
 SELECT DISTINCT
 
 u.id,
